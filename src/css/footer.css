@@ -1,0 +1,73 @@
+.footer {
+	padding: 30px 0 50px 0;
+	
+	background: url(/img/footer/Leaf_Band-min.png) bottom no-repeat;
+	background-size: auto 10px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.instagram-icon {
+	padding: 15px;
+	border-radius: 50px;
+	background-color: #ffffff;
+	transition: background-color 0.25s linear;
+}
+
+.instagram-icon:hover {
+	background-color: #eee;
+}
+
+.footer-menu {
+	margin: 10px 0 0 0;
+}
+
+.footer-menu__item {
+	display: block;
+	margin: 35px 0 0 0;
+}
+
+.footer-menu__item {
+	font-family:Avenir-Book;
+	font-size:1.125rem;
+	color:#b9bfc9;
+	text-align:center;
+	line-height:27px;
+	text-decoration: none;
+}
+
+.copiright {
+	margin: 70px 0 0 0;
+	
+	text-align: center;
+	font-family:Avenir-Book;
+	font-size:0.875rem;
+	color:#b9bfc9;
+	text-align:center;
+	line-height:27px;
+
+	display: block;
+}
+
+.clear {
+	clear: both;
+}
+
+@media screen and (min-width: 1024px) {
+	.footer-menu {
+		margin: 0;
+		display: flex;
+	}
+
+	.footer-menu__item {
+		padding: 10px;
+		margin: 0px 10px 0 10px;
+		display: block;
+	}
+
+	.copiright {
+		margin: 20px 0 0 0;
+	}
+}

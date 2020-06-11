@@ -1,0 +1,163 @@
+.about-wrap {
+	padding: 0 0 70px 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about__leaf {
+	display: none;
+}
+
+.about__item {
+	width: 85%;
+	margin: 60px 0 0 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about__title {
+	width: 320px;
+	margin: 20px 0 40px 0;
+}
+
+.about__image {
+	width: 100%;
+}
+
+.about__text {
+	margin: 25px 0 0 0;
+}
+
+.about__details {
+	margin: 25px 0;
+	font-size: 0.875rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.about {
+		margin: 110px 0;
+		position: relative;
+	}
+
+	.about__leaf {
+		display: block;
+		position: absolute;
+		z-index: 99;
+	}
+
+	.about__leaf-right-top {
+		width: 50px;
+		/*max-width: 50px;*/
+		right: 0;
+		top: -10px;
+	}
+
+	.about__leaf-right-center-1 {
+		width: 40px;
+		
+		right: 0;
+		top: 260px;
+	}
+
+	.about__leaf-right-center-2 {
+		width: 140px;
+		
+		right: 0;
+		top: 325px;
+	}
+
+	.about__leaf-left-center-1 {
+		width: 80px;
+
+		left: 0;
+		top: 275px;
+	}
+
+	.about__leaf-left-center-2 {
+		width: 80px;
+
+		left: 0;
+		top: 450px;
+	}
+
+	.about__item>* {
+		max-width: 58%;
+		margin: 0;
+		
+		text-align: left;
+	}
+
+	.about-wrap {
+		max-width: 1140px;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.about__item {
+		width: 95%;
+		max-height: 390px;
+		margin: 0 auto;
+
+		justify-content: space-between;
+		flex-direction: column;
+		flex-wrap:wrap;
+		align-items: flex-start;
+
+		position: relative;
+	}
+
+	.about__image-wrap {
+		width: 30%;
+		max-width: 550px;
+		height: 100%;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		position: absolute;
+	}
+
+	.about__item:first-child {
+		justify-content: flex-start;
+	}
+
+	.about__item:first-child .about__image-wrap {
+		max-width: 550px;
+		right: 0;
+	}
+
+	.about__item:nth-child(2) {
+		margin: 120px 0 0 0;
+	}
+
+	.about__image-wrap {
+		width: 40%;
+	}
+
+	.about__title {
+		width: auto;
+		margin: 15px 0 20px 0;
+	}
+
+	.about__details {
+		margin: 30px 0 0 0;
+		text-transform: uppercase;
+	}
+
+	.about__item:nth-child(2)>* {
+		margin-left: 43%;
+	}
+
+	.about__item:nth-child(2) .about__image-wrap {
+		align-self: stretch;
+		left: 0;
+		margin: 0;
+	}
+}

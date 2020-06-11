@@ -1,0 +1,126 @@
+.testimonials {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow-x: hidden;
+
+	padding: 60px 0 100px 0;
+}
+
+.testimonials__header {
+	color: #ffffff;
+}
+
+.testimonials__title {
+	font-size:28px;
+	color:#ffffff;
+	margin: 30px 50px 60px 50px;
+}
+
+.testimonials__header-text {
+	font-family:Avenir-Medium;
+	font-size:1.125rem;
+	color:#ffffff;
+	text-align:center;
+	line-height:27px;
+
+	display: none;
+}
+
+.testimonials__wrap {
+	overflow: hidden;
+	width: 100%;
+	/*min-height: 650px;*/
+	position: relative;
+}
+
+.testimonials__items {
+	width: 260%;
+	/*height: 100%;*/
+	margin: 0 0 0 -80%;
+	display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/
+	/*position: absolute;
+	left: -80%;*/
+	transition: margin 0.25s ease-out;
+}
+
+.testimonials__item {
+	height: auto;
+	
+	background-color: #ffffff;
+	opacity: 0.5;
+	border-radius: 10px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	flex-basis: 31%; 
+
+	transition: opacity, transform 0.25s linear;
+	transform: scale(1);
+}
+
+.testimonials__item_active {
+	opacity: 1;
+}
+
+.testimonials__text {
+	padding: 30px 20px 20px 20px;
+}
+
+.testimonials__author {
+	font-style: italic;
+	font-weight: bold;
+	padding: 0 0 40px 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.testimonials {
+		padding-top: 50px;
+	}
+	.testimonials__title {
+		margin: 20px 50px 10px 50px;
+	}
+	.testimonials__header-text {
+		margin: 0 0 50px 0;
+		display: inline-block;
+	}
+
+	.testimonials__items {
+		width: 200%;
+	}
+
+	.testimonials__item {
+		flex-basis: 30%;
+		transform: scale(0.85);
+	}
+	.testimonials__item_active {
+		transform: scale(1);
+	}
+
+	.testimonials__text {
+		padding: 50px 60px;
+	}
+
+	.testimonials__arrow {
+		width: 80px;
+		height: 100%;
+		background: url(/img/testimonials/arrow.png) center no-repeat;
+		
+		position: absolute;
+		top: 0;
+
+		cursor: pointer;
+	}
+	.testimonials__arrow-left {
+		left: 13.5%;
+	}
+	.testimonials__arrow-right {
+		right: 13.5%;
+		transform: rotate(180deg);
+	}
+}

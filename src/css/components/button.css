@@ -1,0 +1,25 @@
+.button {
+	padding: 15px 40px;
+
+	background-color: #f15922;
+
+	border-radius: 2px;
+	border: 1px solid #f15922;
+
+	font-family: Avenir-Black;
+	font-size:1.3125rem;
+	color:#ffffff;
+	letter-spacing:1.2px;
+	text-align:center;
+	text-decoration: none;
+
+	outline: none;
+
+	transition: background-color, color 0.3s linear;
+	cursor: pointer;
+}
+
+.button:hover {
+	color:#f15922;
+	background-color: #ffffff;
+}

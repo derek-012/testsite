@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	position: relative;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+:root {
+	font-size: 16px;
+}
+
+.page {
+	width: 100%;
+	padding: 50px 0 50px 0;
+}
+
+.page_green {
+	background: url(/img/testimonials/background.png) center no-repeat;
+	background-size: cover;
+}
+
+.input {
+	border: none;
+	border-radius: 2px;
+
+	font-size: 0.875rem;
+
+	box-shadow: inset #ddd 0 0 5px 0;
+	
+	outline: none;
+}
+
+.input::placeholder {
+	font-size: 0.875rem;
+	color:#94949f;
+}
+
+.icon {
+	margin: 0 auto;
+	display: block;
+}

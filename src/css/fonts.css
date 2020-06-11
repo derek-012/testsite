@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Avenir-Black';
+	src: url(/fonts/Avenir-Black.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Superclarendon-Bold';
+	src: url('/fonts/Superclarendon Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir-Book';
+	src: url('/fonts/Avenir-Book.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Superclarendon-Regular';
+	src: url('/fonts/Superclarendon Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Superclarendon-Light';
+	src: url('/fonts/Superclarendon Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir-Medium';
+	src: url('/fonts/Avenir-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
